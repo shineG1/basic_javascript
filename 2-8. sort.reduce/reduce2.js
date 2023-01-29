@@ -16,4 +16,4 @@ const result = arr.reduce((prev, cur)=>{
     return prev + cur;
 },0)
 
-console.log(result)
+console.log(result)             //15

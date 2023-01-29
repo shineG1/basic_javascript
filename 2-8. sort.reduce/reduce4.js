@@ -14,11 +14,8 @@ let userList = [
 ];
 
 let result = userList.reduce((prev, cur)=>{
-    if(cur.age > 19){
-        prev.push(cur.name);
-    }
-    return prev;
-}, []);
+    return (prev += cur.age);
+}, 0);
 
 
-console.log(result);                    //[ 'Mike', 'Jane', 'Sue', 'Steve' ]
+console.log(result);                //156

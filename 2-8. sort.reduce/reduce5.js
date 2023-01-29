@@ -14,11 +14,11 @@ let userList = [
 ];
 
 let result = userList.reduce((prev, cur)=>{
-    if(cur.age > 19){
+    if(cur.name.length ===3){
         prev.push(cur.name);
     }
     return prev;
 }, []);
 
 
-console.log(result);                    //[ 'Mike', 'Jane', 'Sue', 'Steve' ]
+console.log(result);                //[ 'Tom', 'Sue' ]

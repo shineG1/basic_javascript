@@ -17,4 +17,4 @@ arr.forEach(num => {
     result += num;
 });
 
-console.log(result)
+console.log(result)                 //15
